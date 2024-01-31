@@ -1,0 +1,405 @@
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #333;
+	margin: auto;
+}
+  
+nav li {
+	float: left;
+}
+
+nav li.right {
+	float: right;
+}
+
+/* Nav Bar Text */
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 35px;
+	height: 35px;
+}
+  
+.logo {
+	position: relative;
+	top: -3px;
+	height: 80%;
+	width: auto;
+}
+
+nav li a:hover {
+	background-color: #111;
+}
+
+/* 'Home' image*/
+nav li img {
+	height: 35px;
+	vertical-align: middle;
+	margin-right: 10px;
+	padding-left: 0px;
+	font-size: small;
+}
+
+input[type="text"] {
+	width: 70%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+}
+
+button[type="submit"] {
+	background-color: #333;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #111;
+	/* width: 30% !important; */
+}
+
+form {
+	text-align: center;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/* Slideshow */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.footer-column {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.connecting-with-us, .supported-payment {
+	flex: 1;
+	margin: 10px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+/* Logos */
+img {
+	width: 50px;
+	margin: 5px;
+}
+
+img:hover {
+	transition: 0.3s;
+}
+
+/* Filter dropdown boxes */
+.filters {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.filters select, .filters button {
+	padding: 10px;
+}
+
+/* Seat Arrangement */
+body {
+	font-family: Arial, sans-serif;
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
+
+#timer {
+	text-align: center;
+	font-size: 2em;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+#cinema-seats {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}
+
+.seat {
+	width: 30px;
+	height: 30px;
+	border-radius: 25%;
+	margin: 5px;
+	box-shadow: 0px 0px 5px #000;
+	background: linear-gradient(to bottom, #808080 , #404040);
+}
+
+.available {
+	background: linear-gradient(to right, #d3d3d3, #f5f5f5);
+}
+
+.booked {
+	background: linear-gradient(to right, #3b3b3b, #545454);
+}
+
+.selected {
+	background: linear-gradient(to right, #005, #236dbd);
+}
+
+#legend {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#confirm-btn {
+	display: block;
+	margin: auto;
+	margin-bottom: 30px;
+	padding: 10px 20px;
+	font-size: 18px;
+	background-color: #333;
+	color: #fff;
+}
+
+/* Login Modal */
+.form-button {
+	background-color: #333;
+	color: white;
+	padding: 20px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 21px;
+	font-weight: 500;
+}
+	
+.form-button:hover {
+	background-color: #111;
+}
+
+.login-form {
+	background-color: #333;
+	padding: 20px;
+	color: white;
+}
+
+/* Login Form */
+.login-form label {
+	color: white;
+	}
+	
+.login-form input[type=text] {
+	width: 590px;
+	height: 50%;
+	padding: 20px;
+	border: none;
+	border-radius: 4px;
+}
+
+.login-form input[type=password] {
+	width: 550px;
+	height: 50%;
+	padding: 20px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 4px;
+}
+
+.login-btn {
+	box-sizing: border-box;
+	background-color: #333;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 21px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.register-btn {
+	box-sizing: border-box !important;
+	width: 150px !important;
+		background-color: #333 !important;
+	color: white !important;
+	border: none !important;
+	border-radius: 4px !important;
+	cursor: pointer !important;
+	font-size: 21px !important;
+	font-weight: 500 !important;
+	margin-bottom: 10px !important;
+	text-align: center !important;
+}
+
+.login-btn:hover {
+	background-color: #111 !important;
+}
+
+.register-btn:hover {
+	background-color: #111 !important;
+}
+
+/* Popup */
+.form-popup {
+	width: 50%;
+	position: fixed;
+	top: 20%;
+	left: 25%;
+	background-color: #333;
+	padding: 20px;
+	color: white;
+}
+
+.close-btn {
+position: absolute;
+top: 10px;
+right: 20px;
+font-size: 32px;
+font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* movies.php style */
+
+.tab {
+	font-size: 30px;
+	padding: 10px 20px;
+}
+
+.movie-container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin: 0 auto;
+	max-width: 100%;
+	flex-wrap: wrap;
+}
+
+.movie {
+	flex: 0 0 auto;
+	margin: 1%;
+	width: calc(100% / 3 - 2%);
+}
+
+.movie img {
+	width: 100%;
+}
+
+.movie h2 {
+	font-size: 24px;
+}
+
+.movie p {
+	font-size: 18px;
+}
+
+.movie button {
+	padding: 10px 20px;
+	font-size: 18px;
+}
+
+.movie-card {
+	position: relative;
+}
+
+.movie-card img {
+	width: 100%;
+	transition: .3s;
+}
+
+.movie-card:hover img {
+	filter: brightness(50%);
+}
+
+.movie-card h2, .movie-card button, .movie-card .rating {
+	position: absolute;
+	opacity: 0;
+	transition: .3s;
+}
+
+.movie-card:hover h2, .movie-card:hover button, .movie-card:hover .rating {
+	opacity: 1;
+}
+
+.movie-card h2 {
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: blue;
+}
+
+.movie-card .rating {
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.movie-card button {
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
